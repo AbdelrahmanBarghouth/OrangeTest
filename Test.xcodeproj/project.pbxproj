@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9549A0DF219AE3EF00374F9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EEDC38219A3D7B005A6D9E /* Main.storyboard */; };
+		9549A0E0219AE9A800374F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EEDC3B219A3D7D005A6D9E /* Assets.xcassets */; };
+		9549A0E2219B094C00374F9C /* soundEffect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9549A0E1219B094B00374F9C /* soundEffect.mp3 */; };
 		95EEDC33219A3D7B005A6D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EEDC32219A3D7B005A6D9E /* AppDelegate.swift */; };
 		95EEDC35219A3D7B005A6D9E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EEDC34219A3D7B005A6D9E /* art.scnassets */; };
 		95EEDC37219A3D7B005A6D9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EEDC36219A3D7B005A6D9E /* ViewController.swift */; };
-		95EEDC3A219A3D7B005A6D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EEDC38219A3D7B005A6D9E /* Main.storyboard */; };
-		95EEDC3C219A3D7D005A6D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EEDC3B219A3D7D005A6D9E /* Assets.xcassets */; };
 		95EEDC3F219A3D7D005A6D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EEDC3D219A3D7D005A6D9E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9549A0E1219B094B00374F9C /* soundEffect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soundEffect.mp3; sourceTree = "<group>"; };
 		95EEDC2F219A3D7B005A6D9E /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EEDC32219A3D7B005A6D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95EEDC34219A3D7B005A6D9E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				95EEDC36219A3D7B005A6D9E /* ViewController.swift */,
 				95EEDC38219A3D7B005A6D9E /* Main.storyboard */,
 				95EEDC3B219A3D7D005A6D9E /* Assets.xcassets */,
+				9549A0E1219B094B00374F9C /* soundEffect.mp3 */,
 				95EEDC3D219A3D7D005A6D9E /* LaunchScreen.storyboard */,
 				95EEDC40219A3D7D005A6D9E /* Info.plist */,
 			);
@@ -125,10 +128,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9549A0E2219B094C00374F9C /* soundEffect.mp3 in Resources */,
+				9549A0E0219AE9A800374F9C /* Assets.xcassets in Resources */,
 				95EEDC35219A3D7B005A6D9E /* art.scnassets in Resources */,
 				95EEDC3F219A3D7D005A6D9E /* LaunchScreen.storyboard in Resources */,
-				95EEDC3C219A3D7D005A6D9E /* Assets.xcassets in Resources */,
-				95EEDC3A219A3D7B005A6D9E /* Main.storyboard in Resources */,
+				9549A0DF219AE3EF00374F9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M93RK67C7A;
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M93RK67C7A;
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
